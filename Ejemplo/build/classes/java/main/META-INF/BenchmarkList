@@ -1,0 +1,2 @@
+JMH S 43 org.example.Benchmark.PruebaStreamBenchmark S 84 org.example.Benchmark.jmh_generated.PruebaStreamBenchmark_resultadoConStream_jmhTest S 18 resultadoConStream S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 43 org.example.Benchmark.PruebaStreamBenchmark S 92 org.example.Benchmark.jmh_generated.PruebaStreamBenchmark_resultadoConStreamParallel_jmhTest S 26 resultadoConStreamParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

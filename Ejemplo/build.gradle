@@ -1,7 +1,14 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
-
+jacoco {
+    toolVersion = "0.8.12"
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
 group 'org.example'
 version '1.0-SNAPSHOT'
 
@@ -12,8 +19,11 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.openjdk.jmh:jmh-core:1.33'
+    annotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.33'
 }
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
 }

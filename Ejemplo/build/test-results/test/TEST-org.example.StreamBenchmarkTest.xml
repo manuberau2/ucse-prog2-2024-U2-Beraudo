@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.StreamBenchmarkTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-10T13:44:14" hostname="LAPTOP-LLKMOUHN" time="3.665">
+  <properties/>
+  <testcase name="trabajoListaParaleloDeberiaDevolverQueNoEstaVacia()" classname="org.example.StreamBenchmarkTest" time="1.274"/>
+  <testcase name="testcrearListaSizeDeberiaDevolver10000000()" classname="org.example.StreamBenchmarkTest" time="1.353"/>
+  <testcase name="trabajoListaSecuencialDeberiaDevolverQueNoEstaVacia()" classname="org.example.StreamBenchmarkTest" time="1.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
