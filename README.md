@@ -14,3 +14,12 @@ Las pruebas de Benchmark fueron ejecutadas en modo “throughput” el cual repr
 - Ejercicio 4: Es innecesario hacer el resultado.join();
 - Deberían de actualizar el .gitignore para no incluir los archivos generados al compilar, ni los archivos propios del framework que utilicen (.idea, .vscode, etc). De lo contrario se pueden pushear archivos indeseados, como la carpeta build, "hs_err_pid5148.log" y otros.
 - Los tests siempre deberían de ir en el mismo package y tener la misma estructura de carpetas que en main, por lo tanto en vez de ir en test/java deberían de ir dentro de test/java/org/example
+
+# Correciones realizadas: 
+- Ejercicio 1: En los tests se añadió la anotación @BeforeEach.
+- Ejercicio 2: Se corrigió la prueba de Benchmark considerando los comentarios realizados: utilizar modo AverageTime, utilizar milisegundos y utilizar objeto Blackhole. No pude cambiar la ubicación del package PruebaBenchmark a la carpeta de test ya que cuando lo hacía, por alguna razón que no entendía, no me permitía ejecutar las pruebas de benchmark. 
+![Benchmark actualizada](PruebaBenchmarkActualizada.png)
+Las pruebas de Benchmark fueron ejecutadas en modo “average time” (avgt), el cual mide el tiempo promedio que toma una operación en milisegundos (ms/op). En este caso, la ejecución secuencial ("benchmarkStreamSecuencial") obtuvo un menor "Score" (155,843 ms/op) en comparación con la ejecución paralela ("benchmarkStreamParalelo") que obtuvo un "Score" de 252,986 ms/op. Esto indica que para esta tarea específica, el uso de streams secuenciales es más eficiente en términos de tiempo promedio de operación. La tasa de error es baja en ambas pruebas, lo que sugiere que los resultados son confiables y consistentes.
+- Ejercicio 4: Se quitó la línea de código resultado.join().
+- Se actualizó el .gitignore.
+- Se corrigió la estructura de los tests. 
