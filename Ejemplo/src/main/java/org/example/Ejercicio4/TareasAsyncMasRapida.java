@@ -40,7 +40,6 @@ public class TareasAsyncMasRapida {
         CompletableFuture<Void> resultado = tareaPrimera.thenAccept(valor -> {
             System.out.println("El valor de la tarea más rápida es: " + valor);
         });
-        resultado.join();
     }
     public static int generarNumeroAleatorio() throws InterruptedException {
         int num = ThreadLocalRandom.current().nextInt(100, 501);

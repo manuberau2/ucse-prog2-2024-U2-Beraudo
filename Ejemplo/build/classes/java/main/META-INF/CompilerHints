@@ -3,6 +3,6 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,org/example/Benchmark/PruebaStreamBenchmark.resultadoConStream
-inline,org/example/Benchmark/PruebaStreamBenchmark.resultadoConStreamParallel
-inline,org/example/Benchmark/PruebaStreamBenchmark.setup
+inline,org/example/PruebaBenchmark/PruebaStreamBenchmark.benchmarkStreamParalelo
+inline,org/example/PruebaBenchmark/PruebaStreamBenchmark.benchmarkStreamSecuencial
+inline,org/example/PruebaBenchmark/PruebaStreamBenchmark.setUp

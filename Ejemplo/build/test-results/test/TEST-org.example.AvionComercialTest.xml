@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.AvionComercialTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-10T13:44:14" hostname="LAPTOP-LLKMOUHN" time="0.106">
-  <properties/>
-  <testcase name="testgetConsumoCombustibleDeberiaDevolver20()" classname="org.example.AvionComercialTest" time="0.099"/>
-  <testcase name="testvolarDeberiaDevolver1600()" classname="org.example.AvionComercialTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
